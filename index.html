@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="JS/app.js"></script>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <div class="container text-white">
+        <div class="row text-center">
+            <div class="col">
+            <h1 class="headline">Kevins Ripoff Blackjack</h1>    
+            </div>        
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <img src="/img/cards_png_zip/PNG/aces.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} headline-image" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="dealerSide sides">
+        <div class="container text-white">
+            <div class="row text-center">
+                <div class="col" id="dealerNametag">
+                <h3>House</h3>
+                </div>
+            </div>
+            <div class="row text-center" id="dealerElements">
+            </div>
+        </div>
+    </div>
+    <div class="playerSide sides">
+        <div class="container text-white">
+            <div class="row text-center">
+                <div class="col" id="playerNametag">
+                    <h3>Player</h3>
+                </div>
+            </div>
+            <div class="row text-center" id="playerElements">
+            </div>
+        </div>
+        <div class="container text-white">
+            <div class="row text-center">
+                <div class="col playButton">
+                    <button type="button" onclick="Hit()" class="btn btn-primary btn-lg playerSide-button" id="hitbutton">Hit</button>
+                    <button type="button" onclick="Stand()" class="btn btn-primary btn-lg playerSide-button" id="standbutton">Stand</button>
+                    <button type="button" onclick="Restart()" class="btn btn-primary btn-lg playerSide-button" id="restartbutton" style="display: none;">Restart</button>
+                </div>
+                <div class="col restartButton" style="display: none;">
+                    <button type="button" class="btn btn-primary btn-lg playerSide-button">Restart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

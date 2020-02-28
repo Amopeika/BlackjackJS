@@ -1,0 +1,25 @@
+body{
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headline-image{
+    width: auto;
+    height: 200px;
+}
+
+.cards{
+    width: auto;
+    height:150px;
+}
+
+.playerSide-button{
+    height: auto;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.sides{
+    margin-top: 50px;
+}
