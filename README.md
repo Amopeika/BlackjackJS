@@ -2,7 +2,7 @@
 
 The Project Blackjack.JS was made as a school project at EUC SYD Sønderborg.
 It's a website to play blackjack on.
-# Files Structure
+# File Structure
 * index.html
 * app.js
 
